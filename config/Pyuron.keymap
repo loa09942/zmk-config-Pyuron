@@ -43,17 +43,17 @@
             bindings = <
 &kp Q               &kp W                  &kp E    &kp R             &kp T               &kp Y          &kp U        &kp I                &kp O          &kp P
 &mt LEFT_CONTROL A  &kp S                  &lt 2 D  &kp F             &kp G               &kp H          &kp J        &lt 6 K              &kp L          &mt RIGHT_CONTROL MINUS
-&mt LEFT_SHIFT Z    &kp X                  &kp C    &kp V             &kp B               &kp BACKSPACE  &lt 4 TAB    &kp N                &kp M          &kp COMMA
+&mt LEFT_SHIFT Z    &kp X                  &kp C    &kp V             &kp B               &kp BACKSPACE  &lt 4 LG(Z)  &kp N                &kp M          &kp COMMA
 &kp DOT             &mt RIGHT_SHIFT SLASH  &kp TAB  &kp LEFT_CONTROL  &mt LEFT_GUI LANG2  &lt 1 SPACE    &lt 3 ENTER  &mt RIGHT_GUI LANG1  &kp RIGHT_ALT  &kp ESC
             >;
         };
 
         symbol {
             bindings = <
-&kp EXCLAMATION       &kp AT                &kp HASH              &kp DOLLAR  &kp PERCENT  &kp CARET          &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp LS(LG(NUMBER_3))  &kp LS(LG(NUMBER_4))  &kp LS(LG(NUMBER_5))  &trans      &kp TILDE    &kp DOUBLE_QUOTES  &kp COLON      &kp LEFT_BRACE    &kp RIGHT_BRACE       &kp PIPE
-&trans                &trans                &trans                &trans      &kp GRAVE    &kp DEL            &trans         &kp SINGLE_QUOTE  &kp SEMICOLON         &kp LEFT_BRACKET
-&kp RIGHT_BRACKET     &kp BACKSLASH         &trans                &trans      &trans       &trans             &trans         &trans            &trans                &trans
+&kp EXCLAMATION       &kp AT                &kp HASH              &kp DOLLAR         &kp PERCENT  &kp CARET          &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp LC(J)             &kp LC(K)             &kp LC(L)             &kp LC(SEMICOLON)  &kp TILDE    &kp DOUBLE_QUOTES  &kp COLON      &kp LEFT_BRACE    &kp RIGHT_BRACE       &kp PIPE
+&kp LS(LG(NUMBER_3))  &kp LS(LG(NUMBER_4))  &kp LS(LG(NUMBER_5))  &trans             &kp GRAVE    &kp DEL            &trans         &kp SINGLE_QUOTE  &kp SEMICOLON         &kp LEFT_BRACKET
+&kp RIGHT_BRACKET     &kp BACKSLASH         &trans                &trans             &trans       &trans             &trans         &trans            &trans                &trans
             >;
         };
 
