@@ -41,10 +41,10 @@
 
         default_layer {
             bindings = <
-&kp Q               &kp W                  &kp E    &kp R             &kp T               &kp Y          &kp U        &kp I                &kp O          &kp P
-&mt LEFT_CONTROL A  &kp S                  &lt 2 D  &kp F             &kp G               &kp H          &kp J        &lt 6 K              &kp L          &mt RIGHT_CONTROL MINUS
-&mt LEFT_SHIFT Z    &kp X                  &kp C    &kp V             &kp B               &kp BACKSPACE  &lt 4 LG(Z)  &kp N                &kp M          &kp COMMA
-&kp DOT             &mt RIGHT_SHIFT SLASH  &kp TAB  &kp LEFT_CONTROL  &mt LEFT_GUI LANG2  &lt 1 SPACE    &lt 3 ENTER  &mt RIGHT_GUI LANG1  &kp RIGHT_ALT  &kp ESC
+&kp Q               &kp W                  &kp E    &kp R             &kp T               &kp Y        &kp U            &kp I                &kp O          &kp P
+&mt LEFT_CONTROL A  &kp S                  &lt 2 D  &kp F             &kp G               &kp H        &kp J            &kp K                &kp L          &mt RIGHT_CONTROL MINUS
+&mt LEFT_SHIFT Z    &kp X                  &kp C    &kp V             &kp B               &lt 6 TAB    &lt 4 BACKSPACE  &kp N                &kp M          &kp COMMA
+&kp DOT             &mt RIGHT_SHIFT SLASH  &kp TAB  &kp LEFT_CONTROL  &mt LEFT_GUI LANG2  &lt 1 SPACE  &lt 3 ENTER      &mt RIGHT_GUI LANG1  &kp RIGHT_ALT  &kp ESC
             >;
         };
 
@@ -70,7 +70,7 @@
             bindings = <
 &kp F1                 &kp F2   &kp F3   &kp F4   &kp F5   &kp PAGE_UP    &kp LC(UP_ARROW)  &kp UP_ARROW   &kp LC(LEFT_ARROW)    &kp LC(RIGHT_ARROW)
 &kp F6                 &kp F7   &kp F8   &kp F9   &kp F10  &kp HOME       &kp LEFT_ARROW    &kp DOWN       &kp RIGHT_ARROW       &kp END
-&kp F11                &kp F12  &kp F13  &kp F14  &kp F15  &trans         &trans            &kp PAGE_DOWN  &kp LG(LEFT_BRACKET)  &trans
+&kp F11                &kp F12  &kp F13  &kp F14  &kp F15  &trans         &trans            &kp PAGE_DOWN  &kp LG(LEFT_BRACKET)  &kp TAB
 &kp LG(RIGHT_BRACKET)  &trans   &trans   &trans   &trans   &kp BACKSPACE  &trans            &trans         &trans                &trans
             >;
         };
@@ -95,10 +95,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &msc SCRL_UP    &trans           &trans          &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1        &trans           &mkp MB2        &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans           &msc SCRL_DOWN  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &msc SCRL_LEFT  &msc SCRL_RIGHT  &trans          &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &trans    &msc SCRL_UP  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &msc SCRL_LEFT  &mkp MB1  &mkp MB2      &mkp MB3  &msc SCRL_RIGHT
+&trans  &trans  &trans  &trans  &trans  &trans          &trans    &trans        &trans    &msc SCRL_DOWN
+&trans  &trans  &trans  &trans  &trans  &trans          &trans    &trans        &trans    &trans
             >;
         };
     };
